@@ -152,7 +152,7 @@ type Proxy struct {
 	HTTPPort     int `json:"httpProxyPort,omitempty"`
 	SSLPort      int `json:"sslProxyPort,omitempty"`
 	SocksPort    int `json:"socksProxyPort,omitempty"`
-	SocksVersion int `json:"socksProxyPort,omitempty"`
+	SocksVersion int `json:"socksVersion,omitempty"`
 }
 
 // ProxyType is an enumeration of the types of proxies available.
