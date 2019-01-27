@@ -149,9 +149,10 @@ type Proxy struct {
 	// specification, ports can also be included in the above addresses. However,
 	// in the Geckodriver implementation, the ports must be specified by these
 	// additional fields.
-	HTTPPort  int `json:"httpProxyPort,omitempty"`
-	SSLPort   int `json:"sslProxyPort,omitempty"`
-	SocksPort int `json:"socksProxyPort,omitempty"`
+	HTTPPort     int `json:"httpProxyPort,omitempty"`
+	SSLPort      int `json:"sslProxyPort,omitempty"`
+	SocksPort    int `json:"socksProxyPort,omitempty"`
+	SocksVersion int `json:"socksProxyPort,omitempty"`
 }
 
 // ProxyType is an enumeration of the types of proxies available.
